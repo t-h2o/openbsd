@@ -1,1 +1,32 @@
 = openBSD
+
+The openBSD project has https://www.openbsd.org/lyrics.html[great songs] about computer science.
+
+I scripted the download of their tracks to complete my musical library.
+The design of their web page is very simple and minimalist.
+It helps me a lot for listing all available tracks by a program.
+
+== perl language
+
+Why should I use the `perl language` ?
+
+[blockquote, manual perlintro]
+____
+What is Perl?
+
+Perl is a general-purpose programming language originally developed for *text manipulation* and now used for a wide range of tasks including system administration, *web development*, network *programming*, GUI development, and more.
+____
+
+These tree ideas convinced me to try the perl language
+
+== main script
+
+. download `lyrics.html`
++
+this is the main page where all metadata about track is stored
+. parse `lyrics.html`
++
+execute `perl script.pl` for generating `dl.sh`
+. execute `dl.sh`
++
+this script will download and set metadata on track
